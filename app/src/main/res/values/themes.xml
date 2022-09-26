@@ -1,8 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.VkPingBot" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.VkPingBot" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/vk_red</item>
+        <item name="colorPrimaryVariant">@color/vk_light_red</item>
+        <item name="colorSecondary">@color/vk_blue</item>
     </style>
 
     <style name="Theme.VkPingBot" parent="Base.Theme.VkPingBot" />
